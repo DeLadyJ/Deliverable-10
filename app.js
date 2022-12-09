@@ -1,6 +1,3 @@
-function red(){
-    document.getElementById('IPid').style.color ='red';
-}
 function bold(){
     document.getElementById('IPid').style.fontWeight='bold';
 }
@@ -17,18 +14,23 @@ function right(){
     document.getElementById('IPid').style.textAlign='right';
 }
 function uppercase(){
-    document.getElementById('IPid').style.textTransform ='Uppercase';
+    document.getElementById('IPid').style.textTransform ='uppercase';
 }
 function lowercase(){
-    document.getElementById('IPid').style.textTransform='Lowercase';
+    document.getElementById('IPid').style.textTransform='lowercase';
 }
 function capitalize(){
     document.getElementById('IPid').style.textTransform='capitalize';
 }
-function clear(){
-    document.getElementById('TPid').value="";
-    document.getElementById('IPid').style.fontWeight='normal';
+function clr(){
+    if (document.getElementById('IPid').style.textAlign='right') {
+        document.getElementById('IPid').style.textAlign='left'
+    } else if (document.getElementById('IPid').style.textAlign='left')
+    document.getElementById('IPid').value='';
+    }
+    
+   /* document.getElementById('IPid').style.fontWeight='normal';
     document.getElementById('IPid').style.fontStyle='normal';
     document.getElementById('IPid').style.textAlign='left';
     document.getElementById('IPid').style.textTransform ='none';
-}
+}*/
