@@ -23,14 +23,10 @@ function capitalize(){
     document.getElementById('IPid').style.textTransform='capitalize';
 }
 function clr(){
-    if (document.getElementById('IPid').style.textAlign='right') {
-        document.getElementById('IPid').style.textAlign='left'
-    } else if (document.getElementById('IPid').style.textAlign='left')
-    document.getElementById('IPid').value='';
-    }
-    
-   /* document.getElementById('IPid').style.fontWeight='normal';
+    document.getElementById('IPid').value=''
+    document.getElementById('IPid').style.fontWeight='normal';
     document.getElementById('IPid').style.fontStyle='normal';
     document.getElementById('IPid').style.textAlign='left';
     document.getElementById('IPid').style.textTransform ='none';
-}*/
+}
+ 
