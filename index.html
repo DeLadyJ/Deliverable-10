@@ -8,20 +8,21 @@
     </head>
     
     <body class="">
-        <h1 class="text-violet-700 text-center text-5xl mt-24">TEXT EDITOR</h1>  
-            <div class="flex space-x-2 items-center border-black ">
-                <button onclick="red()">Red</button>
-                <button onclick="bold()">Bold</button>
-                <button onclick="Italic()">Italic</button>
-                <button onclick="left()">Left Align</button>
-                <button onclick="center()">Center</button>
-                <button onclick="right()">Right Align</button>
-                <button onclick="uppercase()">Upper Case</button>
-                <button onclick="lowercase()">Lower Case</button>
-                <button onclick="capitalize()">Capitalize</button>
-                <button onclick="clear()">Clear Text</button>
+        <h1 class="flex justify-center text-violet-700 text-5xl mt-24">TEXT EDITOR</h1>  
+            <div class="btn-group flex space-x-2 justify-center border-black">
+                <button class="btn" onclick="red()">Red</button>
+                <button class="btn" onclick="bold()">Bold</button>
+                <button class="btn" onclick="Italic()">Italic</button>
+                <button class="btn" onclick="left()">Left Align</button>
+                <button class="btn" onclick="center()">Center</button>
+                <button class="btn" onclick="right()">Right Align</button>
+                <button class="btn" onclick="uppercase()">Upper Case</button>
+                <button class="btn" onclick="lowercase()">Lower Case</button>
+                <button class="btn" onclick="capitalize()">Capitalize</button>
+                <button class="btn" onclick="clear()">Clear Text</button>
             </div>
-    </div>
-        <div><input class="flex items-center border-solid border-4 border-violet-700 w-5/12 h-96 mt-12" type="textarea" id="IPid" ></div>
+            <div class="flex justify-center rounded-lg">
+                <input class="border-solid border-4 border-violet-700 w-5/12 h-96 mt-12" type="textarea" id="IPid" >
+            </div>
     </body>
 </html>

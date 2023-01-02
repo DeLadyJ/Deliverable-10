@@ -26,7 +26,7 @@ function capitalize(){
     document.getElementById('IPid').style.textTransform='capitalize';
 }
 function clear(){
-    document.getElementById('TPid').value="";
+    document.getElementById('TPid').style="";
     document.getElementById('IPid').style.color ='black';
     document.getElementById('IPid').style.fontWeight='normal';
     document.getElementById('IPid').style.fontStyle='normal';
