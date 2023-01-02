@@ -8,21 +8,31 @@
     </head>
     
     <body class="">
-        <h1 class="flex justify-center text-violet-700 text-5xl mt-24">TEXT EDITOR</h1>  
-            <div class="btn-group flex space-x-2 justify-center border-black">
-                <button class="btn" onclick="red()">Red</button>
-                <button class="btn" onclick="bold()">Bold</button>
-                <button class="btn" onclick="Italic()">Italic</button>
-                <button class="btn" onclick="left()">Left Align</button>
-                <button class="btn" onclick="center()">Center</button>
-                <button class="btn" onclick="right()">Right Align</button>
-                <button class="btn" onclick="uppercase()">Upper Case</button>
-                <button class="btn" onclick="lowercase()">Lower Case</button>
-                <button class="btn" onclick="capitalize()">Capitalize</button>
-                <button class="btn" onclick="clear()">Clear Text</button>
+        <h1 class="flex justify-center text-violet-700 text-5xl mt-24 pb-16 border-b-4 border-grey-200">TEXT EDITOR</h1>  
+            <div class="flex space-x-2 justify-center pt-8">
+                <button class="btn btn-outline border-violet-700 text-slate-500 bg-white"  onclick="red()">Red</button>
+                <!--<button class="btn border-2 border-violet-700 rounded-lg bg-white text-white-700 text-xl" onclick="red()">Red</button>-->
+                <button class="btn btn-outline border-violet-700 text-slate-500 bg-white" onclick="bold()">Bold</button>
+                <button class="btn btn-outline border-violet-700 text-slate-500 bg-white" onclick="Italic()">Italic</button>
+                <button class="btn btn-outline border-violet-700 text-slate-500 bg-white" onclick="left()"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25H12" />
+                  </svg>
+                  </button>
+                <button class="btn btn-outline border-violet-700 text-slate-500 bg-white" onclick="center()"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
+                  </svg>
+                  </button>
+                <button class="btn btn-outline border-violet-700 text-slate-500 bg-white" onclick="right()"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25" />
+                  </svg>
+                  </button>
+                <button class="btn btn-outline border-violet-700 text-slate-500 bg-white" onclick="uppercase()">Upper Case</button>
+                <button class="btn btn-outline border-violet-700 text-slate-500 bg-white" onclick="lowercase()">Lower Case</button>
+                <button class="btn btn-outline border-violet-700 text-slate-500 bg-white" onclick="capitalize()">Capitalize</button>
+                <button class="btn btn-outline border-violet-700 text-slate-500 bg-white" onclick="clear()">Clear Text</button>
             </div>
             <div class="flex justify-center rounded-lg">
-                <input class="border-solid border-4 border-violet-700 w-5/12 h-96 mt-12" type="textarea" id="IPid" >
+                <input class="border-solid border-4 border-violet-700 w-6/12 h-96 mt-12" type="textarea" id="IPid" >
             </div>
     </body>
 </html>
